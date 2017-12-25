@@ -13,7 +13,11 @@ public class myStrBuffer {
         buffer.append(" ");
         buffer.append(2017);
         System.out.println(buffer);
-
+        buffer.replace(0,5,"University of");
+        System.out.println(buffer);
+        System.out.println(buffer.reverse());
+        buffer.setCharAt(0,'T');
+        System.out.println(buffer);
 
     }//main
 }//class
