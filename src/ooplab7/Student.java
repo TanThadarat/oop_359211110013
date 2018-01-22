@@ -1,4 +1,4 @@
-package ooplap7;
+package ooplab7;
 //design class
 //taking about Student
 //1. student id
