@@ -9,6 +9,10 @@ public class PersonApp {
 
        System.out.println(person.toString());
 
+       person.getJob().setsalary("30000");
+
+       System.out.println(person.getJob());
+
     }//main
 
 }//class
